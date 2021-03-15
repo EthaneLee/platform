@@ -7,9 +7,22 @@ import org.xhtmlrenderer.pdf.ITextRenderer;
 
 import java.io.*;
 
-public class pdfutils {
+/**
+ * PDF工具类
+ * @author sen li
+ * @date 2021/3/15
+ * @version 1.0.0
+ */
+public class PdfUtils {
 
-
+    /**
+     * 将html文件转换成PDF
+     * @author sen li
+     * @date 2021/3/15 14:50
+     * @param htmlPath html文件地址
+     * @param pdfPath pdf保存地址
+     * @param font 中文字体地址
+    **/        
     private static void html2pdf(String htmlPath, String pdfPath, String font){
         String url;
         OutputStream os = null;
@@ -24,11 +37,7 @@ public class pdfutils {
             render.layout();
             render.createPDF(os);
 
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (DocumentException e) {
+        } catch (DocumentException | IOException e) {
             e.printStackTrace();
         } finally{
             if(os != null){
