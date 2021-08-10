@@ -1,9 +1,8 @@
-package per.ehtane.platform.common.utils;
+package per.ethane.platform.common.utils;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
-import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
  * 时间工具类

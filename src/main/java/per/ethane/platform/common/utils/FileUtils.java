@@ -1,4 +1,4 @@
-package per.ehtane.platform.common.utils;
+package per.ethane.platform.common.utils;
 
 import java.io.File;
 import java.io.FileNotFoundException;

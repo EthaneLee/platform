@@ -1,4 +1,4 @@
-package per.ehtane.platform;
+package per.ethane.platform;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

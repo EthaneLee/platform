@@ -1,4 +1,4 @@
-package per.ehtane.platform;
+package per.ethane.platform;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
